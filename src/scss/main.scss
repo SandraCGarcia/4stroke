@@ -1,0 +1,100 @@
+body{
+    background-color: #2d2d2d;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.header{
+    &__container{
+     
+    }
+    &__background{
+        background-image: url("./../img/_DSC8114.jpg");
+        background-size: cover;
+        position: relative;
+        z-index: -1;
+        width: 100%
+    }
+    &__logo{
+        width: 85px;
+    }
+    &__menu-bar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+    &__title-container{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        transform: translateY(-200%);
+    }
+    &__title{
+        color: #00bc9f;
+        border-bottom: 1px solid #00bc9f;
+        width: 300px;
+        text-align: center;
+        font-family: 'Notable', sans-serif;
+        font-size: 18px;
+        margin: 0;
+    }
+    &__fragment{
+        font-size: 35px;
+    }
+    &__subtitle{
+        text-align: center;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    &__hamburguesa{
+        width: 30px;
+        margin-right: 15px;
+    }
+}
+.gradient{
+    background: linear-gradient(to top, #2d2d2d, rgba(224, 236, 255, 0));
+    background-size: cover;
+    width: 100%;
+    z-index: 100;
+}
+
+.services{
+    width: 150px;
+    height: 150px;
+    background-color: #212020;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__title{
+        text-align: center;
+        color: #fff;
+    }
+    &__bloque1{
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+    }
+    &__bloque2{
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+    }
+    &__1{
+        margin-right: 20px;
+    }
+    &__3{
+        margin-right: 20px;
+    }
+}
+
+.icon{
+    color: #00bc9f;
+    font-size: 30px;
+    margin: 20px;
+}
